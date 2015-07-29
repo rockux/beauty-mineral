@@ -1,0 +1,122 @@
+/**
+ *  退货管理
+ */
+
+/*退货查询表单*/
+.return-search-form{
+    margin-bottom: 22px;
+}
+.return-search-form .row {
+    margin-bottom: 12px;
+}
+
+.return-search-form label {
+    font: 16.67px '黑体';
+}
+
+.return-search-form input {
+    border: solid 2px #ece9e2;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 10px;
+}
+
+.return-search-form select {
+    width: 122px;
+    border: solid 1px #d4d4d4;
+    height: 25px;
+    font: 14.58px '黑体';
+    padding-left: 18px;
+    border-radius: 4px;
+}
+
+#return-id {
+    width: 159px;
+    margin-right: 22px;
+}
+
+#return-goods {
+    width: 377px;
+}
+
+.return-search-form button {
+    width: 93px;
+    padding: 0;
+    font-size: 18.65px;
+    border: solid 1px #afabaa;
+    border-radius: 12px;
+    background: #fff;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+/*退货查询结果*/
+.return-search-result {
+    border-top: solid 2px #5f5f5f;
+    border-bottom: solid 2px #5f5f5f;
+}
+
+.return-search-result table {
+    width: 100%;
+}
+
+.return-search-result thead th {
+    height: 38px;
+    font: 16.67px '黑体';
+    text-align: center;
+}
+
+.return-search-result tbody th {
+    background: #d4eed8;
+    height: 32px;
+    padding: 0 10px;
+    border: solid 1px #d4d7cf;
+}
+
+.return-search-result tbody {
+    font: 14.58px '黑体';
+}
+
+.return-search-result tbody th span {
+    color: #6c6c6c;
+    margin-right: 30px;
+}
+
+.return-search-result tbody td {
+    text-align: center;
+    border-right: solid 1px #d4d7cf;
+}
+
+/*商品*/
+
+.return-search-result tbody .goods-cell {
+    padding: 24px 0 24px 20px;
+    text-align: left;
+    width: 40%;
+}
+
+.goods .picture {
+    float: left;
+}
+
+.goods .info {
+    margin-left: 75px;
+    line-height: 1.5;
+}
+
+.goods .name em {
+    color: #989797;
+}
+
+.return-search-result tbody .handle-cell {
+    border-right: 0 none;
+}
+
+.handle-cell a {
+    color: #0075a9;
+}
+
+.status-cell {
+    color: #6a005f;
+}
+
